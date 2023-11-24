@@ -40,9 +40,8 @@ section{
     overflow: hidden;
 }
 .container{
-    max-width: 1158px;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
+    width: 1158px;
+    margin: 0 auto;
     padding: 0 15px;
 }
 .top-line{
@@ -58,7 +57,7 @@ background: #FFF;
 }
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     margin-right: auto;
 }
 .contacts{
@@ -70,7 +69,7 @@ background: #FFF;
 .contacts-list{
     display: flex;
     align-items: center;
-    column-gap: 40px;
+    gap: 40px;
     }
 
 .logo{
@@ -187,7 +186,7 @@ gap: 10px;
     gap: 24px;
 }
 .calc{
-    width:calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .strategy{
     color:  #2E2F42;
