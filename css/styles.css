@@ -64,7 +64,6 @@ background: #FFF;
     display: flex;
     align-items: center;
     margin-left: auto;
-    margin-right: 156px;
 }
 .contacts-list{
     display: flex;
@@ -99,7 +98,6 @@ margin-right: 76px;
 height: 24px;
 align-items: center;
 flex-shrink: 0;
-margin-right: 76px;
 }
 .menu-link{
     display: block;
@@ -220,7 +218,6 @@ margin-bottom: 72px;
 .team-item{
     display: flex;
     gap: 24px;
-    padding-top: 72px;
 }
 .team-list{
     background-color: #FFFFFF;
@@ -250,7 +247,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding-bottom: 32px;
 }
 
 .portfolio{
@@ -266,7 +262,6 @@ margin-bottom: 72px;
 .about{
     display: flex;
     column-gap: 24px;
-    padding-top: 72px;
     flex-wrap: wrap;
     row-gap: 48px;
 
@@ -326,6 +321,7 @@ display: inline-block;
     margin-bottom: 16px;
 }
 .info{
+    max-width: 264px;
     color:  #F4F4FD;
 font-size: 16px;
 font-weight: 400;
